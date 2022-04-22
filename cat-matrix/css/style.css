@@ -1,0 +1,66 @@
+html {
+    background-color : black;
+    color : lime;
+    font-family : Garamond, serif;
+  }
+  
+  h1 {
+    border: 1px solid lime;
+    text-align: center;
+  }
+  
+  main {
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border: 1px solid lime;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: auto;
+    
+  }
+  
+  .redpill {
+    border: 1px solid lime;
+    margin-left: 1.6%;
+    margin-right: 1.6%;
+    height: auto;
+    width: 30%;
+    float: left;
+    text-align: center;
+  }
+  
+  .redpill h2 {
+    color: red;
+  }
+  
+  .redpill p {
+    color: red;
+  }
+  .redpill p:hover {
+    background-color: red;
+    color: black;
+  }
+  
+  .bluepill {
+    border: 1px solid lime;
+    text-align: center;
+    margin-left: 1.6%;
+    margin-right: 1.6%;
+    width: 30%;
+    height: auto;
+    float: right;
+  }
+  
+  .bluepill h2 {
+    color: blue;
+  }
+  
+  .bluepill p {
+    color: blue;
+  }
+  .bluepill p:hover {
+    background-color: blue;
+    color: black;
+  }
